@@ -4,6 +4,7 @@
 
 html {
     @apply box-border;
+    /* @apply bg-primary-500; */
 }
 
 *,
@@ -121,6 +122,7 @@ select {
 }
 
 #title-bar {
-  --webkit-app-region: drag;
-  user-select: none;
+    height: 45px;
+    user-select: none;
+    -webkit-app-region: drag
 }
